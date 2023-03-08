@@ -3,6 +3,11 @@ Unit testing using Pytest for Python.
 
 ## How to install?
 
+#### Prerequisites:
+```python
+execute --> pip install -r requirements.txt (inside src folder)
+```
+
 ### In Linux:
 
 #### 1: Go to the src folder:
@@ -19,6 +24,7 @@ source venv_test/bin/activate
 pytest
 ```
 #### 4. Run Allure Report:
+
 ```python
 py.test --alluredir=allure_result
 allure serve allure_result/

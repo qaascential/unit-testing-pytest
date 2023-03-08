@@ -5,18 +5,20 @@ Unit testing using Pytest for Python.
 
 ### In Linux:
 
-#### Activate environment:
+#### 1: Go to the src folder:
+
+#### 2: Activate environment:
 
 ```python
 source venv_test/bin/activate
 ```
 
-#### Run tests inside src:
+#### 3: Run tests:
 
 ```python
 pytest
 ```
-#### Run Allure Report
+#### 4. Run Allure Report:
 ```python
 py.test --alluredir=allure_result
 allure serve allure_result/

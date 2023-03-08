@@ -77,6 +77,10 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Allure Report
+allure_result/
+temp/allure_result
+
 # IPython
 profile_default/
 ipython_config.py
